@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Family Information</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Family Information</h1>
+    <div class="family-info">
+      <h2 id="family-name"></h2>
+      <img id="family-photo" class="family-photo" src="" alt="Family Photo">
+    </div>
+    <h3>Family Members</h3>
+    <select id="family-members" onchange="displaySelectedPhoto()">
+      <option value="">Select a family member</option>
+    </select>
+    <div id="selected-photo-container">
+      <img id="selected-photo" src="" alt="Selected Family Member">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
